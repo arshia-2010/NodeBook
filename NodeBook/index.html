@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NodeBook</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+
+    <aside class="sidebar">
+      <h2 class="logo">NodeBook</h2>
+
+      <div class="pages" id="pagesList">
+        <!-- Pages will render here -->
+      </div>
+
+      <button id="addPageBtn">+ Add Page</button>
+    </aside>
+
+    <main class="editor">
+      <input 
+        type="text" 
+        id="pageTitle" 
+        class="page-title"
+        placeholder="Untitled"
+      />
+
+      <div id="blocksContainer" class="blocks">
+        <!-- Blocks will render here -->
+      </div>
+    </main>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
